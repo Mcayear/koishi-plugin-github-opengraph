@@ -1,0 +1,21 @@
+{
+  "name": "koishi-plugin-github-opengraph",
+  "description": "用于解析github仓库、issue、pr链接并以图片发送信息",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.13.1"
+  }
+}
