@@ -8,14 +8,21 @@
     "lib",
     "dist"
   ],
+  "contributors": [
+    "Mcayear <mcayear@163.com>"
+  ],
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "atsc -b",
+    "pub": "npm publish"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "github",
+    "opengraph"
   ],
   "peerDependencies": {
-    "koishi": "^4.13.1"
+    "koishi": "^4.12.9"
   }
 }
