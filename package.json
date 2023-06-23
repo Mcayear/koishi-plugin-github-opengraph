@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-github-opengraph",
   "description": "用于解析github仓库、issue、pr链接并以图片发送信息",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,6 +12,11 @@
     "Mcayear <mcayear@163.com>"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/Mcayear/koishi-plugin-github-opengraph",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcayear/koishi-plugin-github-opengraph.git"
+  },
   "scripts": {
     "build": "atsc -b",
     "pub": "npm publish"
