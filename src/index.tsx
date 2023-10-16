@@ -95,7 +95,8 @@ namespace GithubOpengraph {
       onebot: Schema.boolean().default(true),
       telegram: Schema.boolean().default(false),
       discord: Schema.boolean().default(false),
-      kook: Schema.boolean().default(false)
+      kook: Schema.boolean().default(false),
+      red: Schema.boolean().default(false)
     }).description("启用平台，未启用则不会响应"),
   })
 }
